@@ -38,3 +38,49 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+header{
+	background: url('../build/img/coverphoto.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+	color: $white;
+}
+
+section,
+footer{
+	background: $white;
+	text-align: center; 
+}
+
+.content{
+	position: relative;
+    z-index: 10;
+    margin-top: 600px;
+    height: 100%;
+    width: 100%;
+}
+
+.career,
+.contact,
+footer{
+	background: $sea;
+	color: $white;
+	a{
+		color: $white;
+		text-decoration: underline;	
+	}
+}
+
+header,
+section,
+footer{
+	padding: 6rem;
+}
