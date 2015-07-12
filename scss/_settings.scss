@@ -118,6 +118,7 @@ $jet         : #222222;
 $black       : #000000;
 $sea 		 : #3E927A;
 $golf-wang	 : #fcd91d;
+$blue 		 : #48A2DA;
 
 // We use these as default colors throughout
 $primary-color: #FB6243;
@@ -203,7 +204,7 @@ $body-font-family: $font-family-sans-serif;
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-$header-font-color: $black;
+$header-font-color: $blue;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 $header-bottom-margin: 1rem;
@@ -260,7 +261,7 @@ $paragraph-margin-bottom: rem-calc(20);
 // We use these to style anchors
 $anchor-text-decoration: underline;
 // $anchor-text-decoration-hover: none;
-$anchor-font-color: $primary-color;
+$anchor-font-color: $blue;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
